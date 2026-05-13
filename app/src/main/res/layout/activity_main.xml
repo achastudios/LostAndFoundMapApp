@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is the home screen layout matching the task wireframe style -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/btnCreateAdvert"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_button_grey"
+        android:text="CREATE A NEW ADVERT"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnShowItems"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_button_grey"
+        android:text="SHOW ALL LOST &amp; FOUND ITEMS"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnShowMap"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button_grey"
+        android:text="SHOW ON MAP"
+        android:textStyle="bold" />
+
+</LinearLayout>

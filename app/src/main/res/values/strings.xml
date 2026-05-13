@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lost And Found Map App</string>
+
+    <!-- Keep your real Google Maps API key here -->
+    <string name="google_maps_key">AIzaSyDlQBB0vkznaAsdaLC7QhUVY8Yj09rhfuM</string>
+
+    <string-array name="category_array">
+        <item>Electronics</item>
+        <item>Pets</item>
+        <item>Wallets</item>
+        <item>Keys</item>
+        <item>Bags</item>
+        <item>Documents</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="filter_array">
+        <item>All</item>
+        <item>Electronics</item>
+        <item>Pets</item>
+        <item>Wallets</item>
+        <item>Keys</item>
+        <item>Bags</item>
+        <item>Documents</item>
+        <item>Other</item>
+    </string-array>
+</resources>
